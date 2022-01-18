@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"
+    <title></title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Let's Play Tic Tac Toe</h1> 
+        <div class="game-board"> 
+            <div block-index="0" class="block"></div>
+            <div block-index="1" class="block"></div>
+            <div block-index="2" class="block"></div>
+            <div block-index="3" class="block"></div>
+            <div block-index="4" class="block"></div>
+            <div block-index="5" class="block"></div>
+            <div block-index="6" class="block"></div>
+            <div block-index="7" class="block"></div>
+            <div block-index="8" class="block"></div>
+        </div>
+
+        <marquee behavior="alternate"> <h2 class="game-status"></h2></marquee>
+        <h2 id="winner-message"></h2>
+        
+        <button class="game-reset">Reset</button>
+
+    </div>
+
+
+    <script src="TicTacToe.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
